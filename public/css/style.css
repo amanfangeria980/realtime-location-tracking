@@ -14,3 +14,21 @@ body {
     height: 100%;
     width: 100%;
 }
+
+/* Style for the popup */
+.leaflet-popup-content-wrapper {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    border-radius: 4px;
+    padding: 0 5px;
+}
+
+.leaflet-popup-tip-container {
+    display: none;
+}
+
+.leaflet-popup-content {
+    margin: 5px;
+    text-align: center;
+    font-weight: bold;
+}
